@@ -9,11 +9,11 @@ const Navbar = () => {
 
   return (
     <>
-    <div className='bg-white shadow-2xl'>
+    <div className='bg-white shadow-lg md:shadow-2xl'>
         <div className='container pt-2 pb-2 '>
             <div className='flex items-center justify-between'>
-                <img className='w-10' onClick={()=> setOpen(!open)} src={open ? assets.cancel : assets.menu} alt="" />
-                <img className='w-32' src={assets.logo} alt="" />
+                <img className='md:w-8 w-5' onClick={()=> setOpen(!open)} src={open ? assets.cancel : assets.menu} alt="" />
+                <img className='md:w-32 w-20' src={assets.logo} alt="" />
             </div>
         </div>
     </div>

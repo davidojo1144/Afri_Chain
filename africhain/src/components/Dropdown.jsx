@@ -11,12 +11,13 @@ const Dropdown = ({open}) => {
             exit={{ opacity:0, y: -100 }}
             transition={{duration: 0.3}}
             className=' top-[8] left-0 w-full z-10'>
-                <div className='bg-blue-500 text-white text-sm font-semibold uppercase py-10 m-6 rounded-3xl md:hidden'>
-                    <ul className='flex flex-col items-center justify-center  gap-7'>
-                        <li>Upload product</li>
-                        <li>Sell</li>
-                        <li>About</li>
-                        <li>About</li>
+
+                <div className='bg-secondary text-primary text-md font-semibold uppercase py-10 m-6 shadow-xl rounded-3xl'>
+                    <ul className='flex flex-col items-center justify-center gap-7'>
+                        <li className='hover:text-primary-light cursor-pointer'>Register product</li>
+                        <li className='hover:text-primary-light cursor-pointer'>Sell Product</li>
+                        <li className='hover:text-primary-light cursor-pointer'>About us</li>
+                        <li className='hover:text-primary-light cursor-pointer'>About us</li>
                     </ul>
                 </div>
             </motion.div>
