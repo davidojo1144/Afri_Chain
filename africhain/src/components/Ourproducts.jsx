@@ -21,7 +21,7 @@ const Ourproducts = () => {
 
   return (
     <div className='container pt-20 pb-10'>
-      <div className='mb-10'>
+      <div className='md:mb-10 mb-5'>
         <div className='text-2xl text-center'>
           <Title text1={"OUR"} text2={"PRODUCTS"}/>
         </div>
