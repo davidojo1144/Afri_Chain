@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Dropdown = () => {
+const Dropdown = ({open}) => {
   return (
     <div>
       
