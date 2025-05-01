@@ -1,4 +1,4 @@
-import { AnimatePresence, motion } from 'framer-motion'
+import { AnimatePresence, motion } from 'framer-motion';
 import React from 'react'
 
 const Dropdown = ({open}) => {
@@ -16,8 +16,9 @@ const Dropdown = ({open}) => {
                     <ul className='flex flex-col items-center justify-center gap-7'>
                         <li className='hover:text-primary-light cursor-pointer'>Register product</li>
                         <li className='hover:text-primary-light cursor-pointer'>Sell Product</li>
-                        <li className='hover:text-primary-light cursor-pointer'>Verify </li>
-                        <li className='hover:text-primary-light cursor-pointer'>About us</li>
+                          <li className='hover:text-primary-light cursor-pointer'>Verify product</li>
+                          <li className='hover:text-primary-light cursor-pointer'>Contact us</li>
+                          <li className='hover:text-primary-light cursor-pointer'>About us</li>
                     </ul>
                 </div>
             </motion.div>
