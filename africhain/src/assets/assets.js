@@ -43,3 +43,7 @@ export const products = {
     product12
 
 }
+
+export const industries = {
+    
+}
