@@ -4,7 +4,7 @@ import { products } from '../assets/assets'
 
 const Ourproducts = () => {
   const [startIndex, setStartIndex] = useState(0);
-  const visibleItems = 3; // Number of images to show at once
+  const visibleItems = 3;
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -16,7 +16,7 @@ const Ourproducts = () => {
     return () => clearInterval(interval);
   }, [products]);
 
-  // Create an array of all product keys for easy cycling
+
   const productKeys = Object.keys(products);
 
   return (
