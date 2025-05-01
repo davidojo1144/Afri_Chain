@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { assets } from '../assets/assets'
+import Dropdown from './Dropdown'
 
 const Navbar = () => {
 
@@ -9,10 +10,11 @@ const Navbar = () => {
   return (
     <>
       <div className='container pt-10'>
-        <div>
+        <div className='flex items-center justify-between'>
             <img className='w-16' onClick={()=> setOpen(!open)} src={open ? assets.cancel : assets.menu} alt="" />
             <img src="" alt="" />
         </div>
+        <Dropdown/>
       </div>
     </>
   )
