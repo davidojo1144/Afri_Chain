@@ -1,6 +1,5 @@
 import React from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
-import { AnimatePresence } from 'framer-motion'
 import Home from './pages/Home'
 import Navbar from './components/Navbar'
 

@@ -18,14 +18,14 @@ export default function Companies() {
   const productKeys = Object.keys(trustees);
   
   return (
-    <main className='flex flex-col justify-center items-center pt-[7rem] pb-[20px]'>
-      <p className='text-[1.2rem] font-bold text-[#1d513b] text-center'>Companies that trust us</p>
-      <div className='overflow-hidden px-4'>
+    <main className='flex flex-col justify-center items-center pt-[7rem] '>
+      <p className='text-3xl font-medium text-[#1d513b] text-center pb-[20px]'>Companies that trust us</p>
+      <div className='overflow-hidden px-[20px] py-[20px] sm:w-[85%]'>
               <div className='flex transition-transform duration-500 ease-in-out'
-                   style={{ transform: `translateX(-${startIndex * (100/visibleItems)}%)` }}>
+                   style={{ transform: `translateX(-${startIndex * (100/visibleItems)}` }}>
                 {productKeys.map((key, index) => (
-                  <div key={key} className='flex-shrink-0 px-2' style={{ width: `${100/visibleItems}%` }}>
-                    <img className='w-full rounded object-cover aspect-square' src={trustees[key]} alt={`Product ${index + 1}`} />
+                  <div key={key} className='flex-shrink-0 px-2 h-[100px]' style={{ width:`${100/visibleItems}` }}>
+                    <img className='w-full h-full rounded object-cover object-contain' src={trustees[key]} alt={`Product ${index + 1}`} />
                   </div>
                 ))}
               </div>
