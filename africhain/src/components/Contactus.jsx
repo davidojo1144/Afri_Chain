@@ -12,9 +12,9 @@ const Contactus = forwardRef(() => {
 
   return (
     <div>
-      <div ref={howItWorksRef} className='container p-20 mt-20 mb-20 rounded-2xl text-secondary-light bg-primary-light'>
+      <div ref={howItWorksRef} className='container md:p-20 p-5 mt-20 mb-20 md:rounded-2xl text-secondary-light bg-primary-light'>
         <div className='flex md:flex-row flex-col gap-10'>
-            <div className='space-y-5'>
+            <div className='md:space-y-5 space-y-2'>
                 <p className='prata-regular md:text-3xl text-xl'>Any Questions?</p>
                 <p>We would love to assist you!</p>
                 <p>Schedule a meeting with our brand protection experts to start <br/>protecting your brand and increase your revenue. </p>
@@ -24,7 +24,7 @@ const Contactus = forwardRef(() => {
                 </div>
             </div>
             <form onSubmit={handleSubmit} action="">
-                <div className='flex gap-10 mb-5'>
+                <div className='flex md:flex-row flex-col md:gap-10 gap-3 mb-5'>
                     <input className='rounded w-full text-black py-2 px-5 border border-gray-100 outline-none hover:border-primary-light focus:border-primary-dark' type="text" placeholder='First name' required/>
                     <input className='rounded w-full text-black py-2 px-5 border border-gray-100 outline-none hover:border-primary-light focus:border-primary-dark' type="text" placeholder='Last name' required/>
                 </div>
