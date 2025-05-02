@@ -15,9 +15,9 @@ const Contactus = () => {
                 </div>
             </div>
             <form action="">
-                <div>
-                    <input type="text" />
-                    <input type="text" />
+                <div className='flex gap-10 mb-5'>
+                    <input className='rounded w-full text-black py-2 px-5 border border-gray-100 outline-none hover:border-primary-light focus:border-primary-dark' type="text" placeholder='First name'/>
+                    <input className='rounded w-full text-black py-2 px-5 border border-gray-100 outline-none hover:border-primary-light focus:border-primary-dark' type="text" placeholder='First name' type="text" placeholder='Last name'/>
                 </div>
                 <input type="text" />
                 <input type="text" />
