@@ -1,6 +1,12 @@
 import React from 'react'
 
 const Contactus = () => {
+
+    const handleSubmit = (event)=> {
+        event.preventDefault()
+    }
+
+
   return (
     <div>
       <div className='container p-20 mt-20 mb-20 rounded-2xl text-secondary-light bg-primary-light'>
@@ -14,14 +20,15 @@ const Contactus = () => {
                     <p>+49 6221 33507 10</p>
                 </div>
             </div>
-            <form action="">
+            <form onSubmit={handleSubmit} action="">
                 <div className='flex gap-10 mb-5'>
-                    <input className='rounded w-full text-black py-2 px-5 border border-gray-100 outline-none hover:border-primary-light focus:border-primary-dark' type="text" placeholder='First name'/>
-                    <input className='rounded w-full text-black py-2 px-5 border border-gray-100 outline-none hover:border-primary-light focus:border-primary-dark' type="text" placeholder='First name' type="text" placeholder='Last name'/>
+                    <input className='rounded w-full text-black py-2 px-5 border border-gray-100 outline-none hover:border-primary-light focus:border-primary-dark' type="text" placeholder='First name' required/>
+                    <input className='rounded w-full text-black py-2 px-5 border border-gray-100 outline-none hover:border-primary-light focus:border-primary-dark' type="text" placeholder='Last name' required/>
                 </div>
-                <input type="text" />
-                <input type="text" />
-                <textarea name="" id="" cols="30"></textarea>
+                <div className='flex flex-col space-y-5'>
+                    <input className='rounded text-black py-2 px-5 border border-gray-100 outline-none hover:border-primary-light focus:border-primary-dark' type="text" placeholder="Email address" required/>
+                    <textarea className='rounded text-black py-5 px-5 border border-gray-100 outline-none hover:border-primary-light focus:border-primary-dark' type="text" placeholder="Message" name="" id="" cols="30" required></textarea>
+                </div>
                 <button>Submit</button>
             </form>
         </div>
