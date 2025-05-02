@@ -12,7 +12,7 @@ const Contactus = forwardRef(() => {
 
   return (
     <div>
-      <div ref={howItWorksRef} className='container md:p-20 p-5 mt-20 mb-20 md:rounded-2xl text-secondary-light bg-primary-light'>
+      <div ref={howItWorksRef} className='container md:p-20 p-5 mt-20 mb-20  text-secondary-light bg-primary-light'>
         <div className='flex md:flex-row flex-col gap-10'>
             <div className='md:space-y-5 space-y-2'>
                 <p className='prata-regular md:text-3xl text-xl'>Any Questions?</p>
@@ -29,7 +29,7 @@ const Contactus = forwardRef(() => {
                     <input className='rounded w-full text-black py-2 px-5 border border-gray-100 outline-none hover:border-primary-light focus:border-primary-dark' type="text" placeholder='Last name' required/>
                 </div>
                 <div className='flex flex-col space-y-5'>
-                    <input className='rounded text-black py-2 px-5 border border-gray-100 outline-none hover:border-primary-light focus:border-primary-dark' type="text" placeholder="Email address" required/>
+                    <input className='rounded text-black py-2 px-5 border border-gray-100 outline-none hover:border-primary-light focus:border-primary-dark' type="email" placeholder="Email address" required/>
                     <textarea className='rounded text-black py-5 px-5 border border-gray-100 outline-none hover:border-primary-light focus:border-primary-dark' type="text" placeholder="Message" name="" id="" cols="30" required></textarea>
                 </div>
                 <button className='py-2 px-4 bg-secondary-dark text-primary-dark rounded mt-5 hover:bg-secondary-light'>Submit</button>
