@@ -1,6 +1,8 @@
 import { AnimatePresence, motion } from 'framer-motion'
 import React, { useContext } from 'react'
 import { AfrichainContext } from '../context/AfrichainContext'
+import { AnimatePresence, motion } from 'framer-motion';
+import React from 'react'
 
 const Dropdown = ({open}) => {
 
