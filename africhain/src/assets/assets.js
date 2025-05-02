@@ -79,3 +79,18 @@ export const industries = {
     cosmetics,
     healthcare
 }
+export const footerContent = [
+    {
+        header:'Anti counterfeiting solutions',
+        body:['Stop counterfeiting', 'Avoid grey markets','Control quantities','Manage licensing','Initiate consumer interaction']
+    },{
+        header:'Industries',
+        body:['Security labels', 'Printed security','Holographic security','Manage licensing','Initiate consumer interaction']
+    },{
+        header:'Products',
+        body:['Stop counterfeiting', 'Avoid grey markets','Control quantities','Manage licensing','Initiate consumer interaction']
+    },{
+        header:'Resources',
+        body:['Blog', 'Glossary','News','Events','Press']
+    }
+]

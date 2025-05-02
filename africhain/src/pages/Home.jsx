@@ -6,11 +6,12 @@ import Benefits from '../components/Benefits'
 import Industries from '../components/Industries'
 import Hero from '../components/hero'
 import Contactus from '../components/Contactus'
-
+import AboutUs from "../components/aboutUs.jsx";
 const Home = () => {
   return (
     <div>
       <Hero/>
+      <AboutUs/>
       <Companies/>
       <Ourproducts/>
       <Benefits/>
