@@ -29,7 +29,7 @@ const Contactus = () => {
                     <input className='rounded text-black py-2 px-5 border border-gray-100 outline-none hover:border-primary-light focus:border-primary-dark' type="text" placeholder="Email address" required/>
                     <textarea className='rounded text-black py-5 px-5 border border-gray-100 outline-none hover:border-primary-light focus:border-primary-dark' type="text" placeholder="Message" name="" id="" cols="30" required></textarea>
                 </div>
-                <button>Submit</button>
+                <button className='py-2 px-4 bg-secondary-dark text-primary-dark rounded mt-5 hover:bg-secondary-light'>Submit</button>
             </form>
         </div>
       </div>
