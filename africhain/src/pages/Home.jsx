@@ -4,9 +4,8 @@ import Ourproducts from '../components/Ourproducts'
 import Companies from '../components/Companies'
 import Benefits from '../components/Benefits'
 import Industries from '../components/Industries'
-import Contactus from '../components/Contactus'
 import Hero from '../components/Hero'
-
+import Contactus from '../components/Contactus'
 const Home = () => {
   return (
     <div>
