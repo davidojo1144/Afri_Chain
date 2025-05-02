@@ -18,6 +18,14 @@ import product11 from "./reuben-mansell-nwOip8AOZz0-unsplash.jpg"
 import product12 from "./shreesha-bhat-IS9ICGyPvPc-unsplash.jpg"
 
 
+import agriculture from "./agriculture.jpg"
+import babynutrition from "./babynutrition.jpg"
+import cosmetics from "./cosmetics.jpg"
+import healthcare from "./healthcare.jpg"
+import licensing from "./licensing.jpg"
+import wines from "./wines.jpg"
+
+
 
 export const assets = {
     cancel,
@@ -45,5 +53,10 @@ export const products = {
 }
 
 export const industries = {
-    
+    agriculture,
+    wines,
+    licensing,
+    babynutrition,
+    cosmetics,
+    healthcare
 }
