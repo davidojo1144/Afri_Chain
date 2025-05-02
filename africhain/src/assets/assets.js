@@ -63,3 +63,5 @@ export const trustees = {
     company8,
     company9,
 }
+export const industries = {
+}
