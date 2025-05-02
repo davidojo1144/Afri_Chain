@@ -19,7 +19,7 @@ export default function Companies() {
   
   return (
     <main className='flex flex-col justify-center items-center pt-[7rem] '>
-      <p className='md:text-3xl text-xl font-medium text-[#1d513b] text-center pb-[20px]'>Companies that trust us</p>
+      <p className='md:text-3xl text-xl font-medium text-[#1d513b] text-center pb-[20px] prata-regular'>Companies that trust us</p>
       <div className='overflow-hidden px-[20px] py-[20px] sm:w-[85%]'>
               <div className='flex transition-transform duration-500 ease-in-out'
                    style={{ transform: `translateX(-${startIndex * (100/visibleItems)}%)` }}>

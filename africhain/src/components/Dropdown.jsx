@@ -1,7 +1,12 @@
-import { AnimatePresence } from 'framer-motion'
-import React from 'react'
+import { AnimatePresence, motion } from 'framer-motion'
+import React, { useContext } from 'react'
+import { AfrichainContext } from '../context/AfrichainContext'
 
 const Dropdown = ({open}) => {
+ 
+    const {scrollToHowItWork} = useContext(AfrichainContext)
+
+
   return <AnimatePresence>
     {
         open && (
@@ -32,7 +37,7 @@ const Dropdown = ({open}) => {
                             <div className='border w-[90%] pr-10 bg-primary-dark'></div>
                         </div>
                         <div className='space-y-3'>
-                            <li className='hover:text-primary-light cursor-pointer'>contact us</li>
+                            <li onClick={scrollToHowItWork} className='hover:text-primary-light cursor-pointer'>contact us</li>
                             <div className='border w-[90%] pr-10 bg-primary-dark'></div>
                         </div>
                         <div className='space-y-3'>
