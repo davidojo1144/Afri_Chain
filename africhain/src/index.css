@@ -41,3 +41,19 @@ body {
   background-color: #FAF5EE;
   color: #1D503A;
 }
+.footer {
+  @apply flex flex-col justify-start sm:justify-between bg-primary-dark text-secondary-dark px-[10px] md:px-[20px] pb-[25px] sm:pb-[35px] sm:pt-[55px];
+  & section{
+    @apply hover:text-secondary-dark flex flex-wrap sm:justify-around justify-start  gap-[20px] ;
+    & p{
+      padding-left: 3px;
+      @apply cursor-pointer text-[0.85rem]  hover:text-[0.86rem] transition-all transform duration-300;
+    }
+    & h5{
+      @apply font-semibold text-[1rem] capitalize cursor-pointer hover:text-[1.01rem] transition-all transform duration-300 max-w-[200px] text-nowrap;
+    }
+  }
+}
+.aboutUs{
+
+}
