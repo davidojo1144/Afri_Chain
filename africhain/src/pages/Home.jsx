@@ -8,10 +8,6 @@ import Contactus from '../components/Contactus'
 import Hero from '../components/Hero'
 
 const Home = () => {
-
-
-
-
   return (
     <div>
       <Hero/>
@@ -19,7 +15,6 @@ const Home = () => {
       <Ourproducts/>
       <Benefits/>
       <Industries/>
-      <Contactus/>
     </div>
   )
 }

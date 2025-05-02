@@ -24,7 +24,8 @@ export default function Companies() {
               <div className='flex transition-transform duration-500 ease-in-out'
                    style={{ transform: `translateX(-${startIndex * (100/visibleItems)}` }}>
                 {productKeys.map((key, index) => (
-                  <div key={key} className='flex-shrink-0 px-2 h-[100px]' style={{ width:`${100/visibleItems}` }}>
+
+                  <div key={key} className='flex-shrink-0 px-2 h-[100px]' style={{ width: `${100/visibleItems}%` }}>
                     <img className='w-full h-full rounded object-cover object-contain' src={trustees[key]} alt={`Product ${index + 1}`} />
                   </div>
                 ))}
