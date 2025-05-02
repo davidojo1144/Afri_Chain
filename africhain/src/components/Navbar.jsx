@@ -1,6 +1,7 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import { assets } from '../assets/assets'
 import Dropdown from './Dropdown'
+import { AfrichainContext } from '../context/AfrichainContext'
 
 const Navbar = () => {
 
@@ -17,7 +18,7 @@ const Navbar = () => {
             </div>
         </div>
     </div>
-    <Dropdown open={open}/>
+    <Dropdown  open={open}/>
     </>
   )
 }

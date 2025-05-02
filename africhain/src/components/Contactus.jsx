@@ -1,15 +1,18 @@
-import React from 'react'
+import React, { forwardRef, useContext } from 'react'
+import { AfrichainContext } from '../context/AfrichainContext'
 
-const Contactus = () => {
+const Contactus = forwardRef(() => {
 
     const handleSubmit = (event)=> {
         event.preventDefault()
     }
 
+    const {howItWorksRef} = useContext(AfrichainContext)
+
 
   return (
     <div>
-      <div className='container p-20 mt-20 mb-20 rounded-2xl text-secondary-light bg-primary-light'>
+      <div ref={howItWorksRef} className='container p-20 mt-20 mb-20 rounded-2xl text-secondary-light bg-primary-light'>
         <div className='flex md:flex-row flex-col gap-10'>
             <div className='space-y-5'>
                 <p className='prata-regular md:text-3xl text-xl'>Any Questions?</p>
@@ -35,6 +38,6 @@ const Contactus = () => {
       </div>
     </div>
   )
-}
+})
 
 export default Contactus

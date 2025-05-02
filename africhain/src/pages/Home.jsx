@@ -7,6 +7,10 @@ import Industries from '../components/Industries'
 import Contactus from '../components/Contactus'
 
 const Home = () => {
+
+
+
+
   return (
     <div>
       <Hero/>

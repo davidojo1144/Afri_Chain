@@ -8,6 +8,7 @@ const App = () => {
 
   const location = useLocation()
 
+
   return (
     <AnimatePresence mode="wait">
       <div className='overflow-x-hidden'>
