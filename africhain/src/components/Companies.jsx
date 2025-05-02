@@ -22,7 +22,7 @@ export default function Companies() {
       <p className='md:text-3xl text-xl font-medium text-[#1d513b] text-center pb-[20px]'>Companies that trust us</p>
       <div className='overflow-hidden px-[20px] py-[20px] sm:w-[85%]'>
               <div className='flex transition-transform duration-500 ease-in-out'
-                   style={{ transform: `translateX(-${startIndex * (100/visibleItems)}` }}>
+                   style={{ transform: `translateX(-${startIndex * (100/visibleItems)}%)` }}>
                 {productKeys.map((key, index) => (
 
                   <div key={key} className='flex-shrink-0 px-2 h-[100px]' style={{ width: `${100/visibleItems}%` }}>
